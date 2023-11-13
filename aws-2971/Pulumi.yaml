@@ -1,0 +1,6 @@
+name: pulumi-repro
+runtime: nodejs
+description: Reproduce issue https://github.com/pulumi/pulumi-aws/issues/2971
+stackConfigDir: "stacks"
+config:
+  pulumi:disable-default-providers: [ "*" ]
